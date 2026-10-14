@@ -1,0 +1,6 @@
+{
+  "name": "Voice Time Reminder",
+  "description": "Native offline voice timer and reminder with Bengali and multilingual Text-to-Speech, exact alarm scheduling, reboot restoration, and customizable intervals.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

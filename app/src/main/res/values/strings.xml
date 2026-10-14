@@ -1,0 +1,59 @@
+<resources>
+    <string name="app_name">Voice Time Reminder</string>
+    <string name="app_tagline">Offline Bangla Voice Clock &amp; Alarm</string>
+
+    <!-- Navigation & Headers -->
+    <string name="tab_timer">Timer</string>
+    <string name="tab_settings">Settings &amp; Permissions</string>
+    <string name="tab_history">History</string>
+
+    <!-- Timer UI -->
+    <string name="timer_section_title">Select Reminder Interval (1–60 Minutes)</string>
+    <string name="quick_intervals">Quick Presets</string>
+    <string name="custom_minutes_slider">Fine-tune Duration: %1$d Minute(s)</string>
+    <string name="start_timer">Set Reminder (Start)</string>
+    <string name="cancel_timer">Cancel Reminder</string>
+    <string name="active_timer_running">Timer Active (Runs with screen off)</string>
+    <string name="no_active_timer">No active timer set</string>
+    <string name="remaining_time_label">Remaining Time</string>
+    <string name="alarm_scheduled_at">Speaks Bangla time at: %1$s</string>
+
+    <!-- Voice Test -->
+    <string name="voice_card_title">Voice Announcement Engine</string>
+    <string name="voice_card_desc">Speaks current local time aloud in Bangla when the reminder triggers, even when the screen is locked or turned off.</string>
+    <string name="test_voice_button">Test Bangla Voice (Speak Now)</string>
+    <string name="stop_voice_button">Stop Voice</string>
+    <string name="status_bangla_ready">Bangla Voice Active</string>
+    <string name="status_default_ready">Default Voice Active</string>
+
+    <!-- Permissions & Settings -->
+    <string name="permissions_title">System Reliability &amp; Permissions</string>
+    <string name="permissions_subtitle">Configure Android background and alarm permissions so reminders never miss</string>
+    <string name="perm_exact_alarm_title">Exact Alarm Permission</string>
+    <string name="perm_exact_alarm_desc">Guarantees precision down to the second when triggering voice reminders.</string>
+    <string name="perm_notif_title">Notification Permission</string>
+    <string name="perm_notif_desc">Required to show alert and playback controls when the phone is locked.</string>
+    <string name="perm_battery_title">Battery Optimization (Doze Mode)</string>
+    <string name="perm_battery_desc">Allows timer to run continuously in the background without being killed by Android power saving.</string>
+    <string name="grant_permission">Enable</string>
+    <string name="permission_granted">Enabled</string>
+    <string name="permission_required">Action Needed</string>
+    <string name="battery_settings_button">Disable Battery Restrictions</string>
+
+    <!-- History -->
+    <string name="history_title">Recent Voice Reminders</string>
+    <string name="history_empty">No past reminders yet. Set one above!</string>
+    <string name="clear_history">Clear History</string>
+
+    <!-- Notification Service -->
+    <string name="channel_name">Voice Time Reminder</string>
+    <string name="channel_description">Alarms and voice announcements for scheduled reminders</string>
+    <string name="notification_title">Voice Time Alert</string>
+    <string name="action_stop">Dismiss</string>
+
+    <!-- Spoken Messages -->
+    <string name="tts_test_message_bn">ভয়েস টেস্ট সফল হয়েছে। বর্তমান সময় %1$s।</string>
+    <string name="tts_test_message_en">Voice test successful. Current time is %1$s.</string>
+    <string name="tts_alarm_message_bn">সময় হয়েছে! এখন বাজে %1$s। আপনার নির্ধারিত সময় পূর্ণ হয়েছে।</string>
+    <string name="tts_alarm_message_en">Time\'s up! The current time is %1$s. Your scheduled reminder is completed.</string>
+</resources>

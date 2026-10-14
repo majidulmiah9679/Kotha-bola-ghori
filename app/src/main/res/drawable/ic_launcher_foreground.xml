@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Left Alarm Bell / Hammer -->
+    <path
+        android:fillColor="#FBBF24"
+        android:pathData="M32.5,33.5 C30,30.5 32,26.5 36,25.5 C40,24.5 43,27 44,30.5 Z" />
+
+    <!-- Right Alarm Bell / Hammer -->
+    <path
+        android:fillColor="#FBBF24"
+        android:pathData="M75.5,33.5 C78,30.5 76,26.5 72,25.5 C68,24.5 65,27 64,30.5 Z" />
+
+    <!-- Top Handle / Pin -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M52,24 L56,24 L56,29 L52,29 Z" />
+
+    <!-- Alarm Clock Feet -->
+    <path
+        android:fillColor="#FBBF24"
+        android:pathData="M37,77 L31,85 C30,86.5 32,88 33.5,87 L41,80 Z" />
+    <path
+        android:fillColor="#FBBF24"
+        android:pathData="M71,77 L77,85 C78,86.5 76,88 74.5,87 L67,80 Z" />
+
+    <!-- Main Clock Outer Circle -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M54,30 C39.64,30 28,41.64 28,56 C28,70.36 39.64,82 54,82 C68.36,82 80,70.36 80,56 C80,41.64 68.36,30 54,30 Z" />
+
+    <!-- Main Clock Inner Face -->
+    <path
+        android:fillColor="#1E1B4B"
+        android:pathData="M54,34 C41.85,34 32,43.85 32,56 C32,68.15 41.85,78 54,78 C66.15,78 76,68.15 76,56 C76,43.85 66.15,34 54,34 Z" />
+
+    <!-- Clock Center Dot -->
+    <path
+        android:fillColor="#FBBF24"
+        android:pathData="M54,53 C52.34,53 51,54.34 51,56 C51,57.66 52.34,59 54,59 C55.66,59 57,57.66 57,56 C57,54.34 55.66,53 54,53 Z" />
+
+    <!-- Clock Hour Hand (pointing toward 10) -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="3.2"
+        android:strokeLineCap="round"
+        android:pathData="M54,56 L44,46" />
+
+    <!-- Clock Minute Hand (pointing toward 2) -->
+    <path
+        android:fillColor="#FBBF24"
+        android:strokeColor="#FBBF24"
+        android:strokeWidth="2.8"
+        android:strokeLineCap="round"
+        android:pathData="M54,56 L64,43" />
+
+    <!-- Voice waves emitted on the top right -->
+    <path
+        android:strokeColor="#38BDF8"
+        android:strokeWidth="2.5"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000"
+        android:pathData="M78,39 C83,43 86,49 86,56" />
+
+    <path
+        android:strokeColor="#38BDF8"
+        android:strokeWidth="2.5"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000"
+        android:pathData="M84,33 C91,38 95,47 95,56" />
+
+</vector>
